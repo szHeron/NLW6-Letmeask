@@ -32,6 +32,11 @@ export default function Home(){
             alert("Room does not exists!");
             return;
         }
+
+        if((await roomRef).val().endAt){
+            alert("Room already close");
+            return;
+        }
         history.push(`/rooms/${roomCode}`);
     }
 
