@@ -1,0 +1,37 @@
+.modal{
+    background-color: #fff;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+
+    p{
+        margin: 20px;
+    }
+
+    svg{
+        margin: 20px
+    }
+    
+    svg path{
+        stroke: #E73F5D;
+    }
+}
+
+.overlay{
+    position: fixed;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
